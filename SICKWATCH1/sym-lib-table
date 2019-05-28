@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TI)(type Legacy)(uri /home/julian/SICKWATCH1/SICKWATCH1/TI.lib)(options "")(descr ""))
+  (lib (name Infineon)(type Legacy)(uri /home/julian/SICKWATCH1/SICKWATCH1/Infineon.lib)(options "")(descr ""))
+)
