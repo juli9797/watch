@@ -471,10 +471,6 @@ Wire Wire Line
 Connection ~ 4950 6450
 Wire Wire Line
 	4950 6450 5100 6450
-Text HLabel 4100 5750 0    50   Input ~ 0
-K0
-Text HLabel 4100 6150 0    50   Input ~ 0
-K1
 Wire Wire Line
 	4400 6150 4800 6150
 $Comp
@@ -513,4 +509,8 @@ Text GLabel 1000 3000 0    50   Input ~ 0
 ULED
 Text GLabel 1600 2200 0    50   Input ~ 0
 3V3
+Text GLabel 4100 5750 0    50   Input ~ 0
+K0
+Text GLabel 4100 6150 0    50   Input ~ 0
+K1
 $EndSCHEMATC
