@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name TI)(type Legacy)(uri /home/julian/SICKWATCH1/SICKWATCH1/TI.lib)(options "")(descr ""))
-  (lib (name Infineon)(type Legacy)(uri /home/julian/SICKWATCH1/SICKWATCH1/Infineon.lib)(options "")(descr ""))
+  (lib (name TI)(type Legacy)(uri ${KIPRJMOD}/TI.lib)(options "")(descr ""))
+  (lib (name Infineon)(type Legacy)(uri ${KIPRJMOD}/Infineon.lib)(options "")(descr ""))
+  (lib (name SICKWATCH1-rescue)(type Legacy)(uri ${KIPRJMOD}/SICKWATCH1-rescue.lib)(options "")(descr "")(disabled))
 )
