@@ -314,8 +314,6 @@ F 3 "" H 7700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7700 3400
-Wire Wire Line
-	6650 3500 6650 3400
 $Comp
 L Device:R R7
 U 1 1 5CDAADD2
@@ -438,7 +436,7 @@ Wire Wire Line
 	3850 1900 3850 3600
 Text Notes 3650 4300 0    50   ~ 0
 LOAD Capacitance: \nCL = (C1*C2)/(C1+C2) + Cpara\nC = C1 = C2 = (CL -Cpara)*2 = 34pF\nLoad Capacitance: 12.5pF.\nEquivalent resistance: 35KΩ.\nFrequency tolerance: +20 PPM.\n32738
-Text GLabel 6650 4100 2    50   Input ~ 0
+Text GLabel 5350 3900 0    50   Input ~ 0
 K1
 Wire Wire Line
 	6150 2100 6250 2100
@@ -449,7 +447,7 @@ Wire Wire Line
 	5950 2100 6050 2100
 Connection ~ 6050 2100
 Connection ~ 5950 2100
-Text GLabel 6650 4000 2    50   Input ~ 0
+Text GLabel 5350 4000 0    50   Input ~ 0
 K0
 Text GLabel 6650 3600 2    50   Input ~ 0
 ENA
@@ -474,7 +472,6 @@ Wire Wire Line
 	5350 2500 5000 2500
 Wire Wire Line
 	5000 2500 5000 1900
-Connection ~ 6650 3400
 Connection ~ 7450 3400
 Connection ~ 7700 3700
 Wire Wire Line
@@ -521,4 +518,8 @@ Text GLabel 6650 4700 2    50   Input ~ 0
 SWDIO
 Text GLabel 6650 4800 2    50   Input ~ 0
 SWCLK
+Text Label 7000 3400 0    50   ~ 0
+WKUP
+Text GLabel 6650 4000 2    50   Input ~ 0
+BAT_STAT
 $EndSCHEMATC

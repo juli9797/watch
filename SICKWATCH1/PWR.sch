@@ -223,13 +223,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 5DB313EC
-P 1600 2800
-F 0 "J1" H 1492 2475 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 1492 2566 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal" H 1600 2800 50  0001 C CNN
-F 3 "~" H 1600 2800 50  0001 C CNN
-	1    1600 2800
-	-1   0    0    -1  
+P 1600 2900
+F 0 "J1" H 1492 2575 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1492 2666 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal" H 1600 2900 50  0001 C CNN
+F 3 "~" H 1600 2900 50  0001 C CNN
+	1    1600 2900
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C11
@@ -363,4 +363,28 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3750 2950 50  0001 C CNN
 	1    3750 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5DDA69D8
+P 1650 4100
+F 0 "J2" H 1542 3775 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1542 3866 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1650 4100 50  0001 C CNN
+F 3 "~" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0105
+U 1 1 5DDA69DE
+P 1850 4200
+F 0 "#PWR0105" H 1850 3950 50  0001 C CNN
+F 1 "GNDD" H 1854 4045 50  0000 C CNN
+F 2 "" H 1850 4200 50  0001 C CNN
+F 3 "" H 1850 4200 50  0001 C CNN
+	1    1850 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 4100 2    50   Input ~ 0
+V_IN
 $EndSCHEMATC

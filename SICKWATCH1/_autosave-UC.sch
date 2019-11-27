@@ -626,4 +626,6 @@ Text GLabel 10600 4650 0    50   Input ~ 0
 RX
 Text Notes 10400 4150 0    50   ~ 0
 UART Interface\n
+Text Notes 8350 3250 0    50   ~ 0
+yd3414\n
 $EndSCHEMATC
