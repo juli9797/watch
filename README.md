@@ -1,5 +1,5 @@
 # WATCH   
-![watch gif][demo.gif]
+![watch gif](demo.gif)
 
 This is a simple LED-wristwatch with 16 LEDs and one push button.
 Everything is controlled by a STM32F103 and its realtime clock.
